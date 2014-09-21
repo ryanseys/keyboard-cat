@@ -13,6 +13,12 @@
 		2B7D289619CE658F003A9635 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D289519CE658F003A9635 /* Images.xcassets */; };
 		2B7D289919CE658F003A9635 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D289719CE658F003A9635 /* LaunchScreen.xib */; };
 		2B7D28A519CE658F003A9635 /* keyboard_catTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D28A419CE658F003A9635 /* keyboard_catTests.swift */; };
+		2B7D28B719CE65D4003A9635 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D28B619CE65D4003A9635 /* KeyboardViewController.swift */; };
+		2B7D28BA19CE65D4003A9635 /* cat-keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B7D28B219CE65D4003A9635 /* cat-keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B7D28C419CE6891003A9635 /* cat-keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D28C319CE6891003A9635 /* cat-keyboard.xib */; };
+		2B7D28C619CE6A43003A9635 /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D28C519CE6A43003A9635 /* backspace.png */; };
+		2B7D28C819CE6B15003A9635 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D28C719CE6B15003A9635 /* globe.png */; };
+		2B7D28CB19CE71EA003A9635 /* keyboardcat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D28CA19CE71EA003A9635 /* keyboardcat.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = 2B7D288819CE658F003A9635;
 			remoteInfo = "keyboard-cat";
 		};
+		2B7D28B819CE65D4003A9635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B7D288119CE658F003A9635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7D28B119CE65D4003A9635;
+			remoteInfo = "cat-keyboard";
+		};
+		2B7D28BB19CE65D5003A9635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B7D288119CE658F003A9635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7D28B119CE65D4003A9635;
+			remoteInfo = "cat-keyboard";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B7D28C019CE65D5003A9635 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B7D28BA19CE65D4003A9635 /* cat-keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2B7D288919CE658F003A9635 /* keyboard-cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keyboard-cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,13 @@
 		2B7D289E19CE658F003A9635 /* keyboard-catTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "keyboard-catTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7D28A319CE658F003A9635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B7D28A419CE658F003A9635 /* keyboard_catTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboard_catTests.swift; sourceTree = "<group>"; };
+		2B7D28B219CE65D4003A9635 /* cat-keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "cat-keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7D28B519CE65D4003A9635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7D28B619CE65D4003A9635 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		2B7D28C319CE6891003A9635 /* cat-keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "cat-keyboard.xib"; sourceTree = "<group>"; };
+		2B7D28C519CE6A43003A9635 /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace.png; sourceTree = "<group>"; };
+		2B7D28C719CE6B15003A9635 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		2B7D28CA19CE71EA003A9635 /* keyboardcat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = keyboardcat.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +94,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B7D28AF19CE65D4003A9635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +109,7 @@
 			children = (
 				2B7D288B19CE658F003A9635 /* keyboard-cat */,
 				2B7D28A119CE658F003A9635 /* keyboard-catTests */,
+				2B7D28B319CE65D4003A9635 /* cat-keyboard */,
 				2B7D288A19CE658F003A9635 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +119,7 @@
 			children = (
 				2B7D288919CE658F003A9635 /* keyboard-cat.app */,
 				2B7D289E19CE658F003A9635 /* keyboard-catTests.xctest */,
+				2B7D28B219CE65D4003A9635 /* cat-keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +162,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2B7D28B319CE65D4003A9635 /* cat-keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D28CA19CE71EA003A9635 /* keyboardcat.gif */,
+				2B7D28C719CE6B15003A9635 /* globe.png */,
+				2B7D28B619CE65D4003A9635 /* KeyboardViewController.swift */,
+				2B7D28C519CE6A43003A9635 /* backspace.png */,
+				2B7D28B419CE65D4003A9635 /* Supporting Files */,
+				2B7D28C319CE6891003A9635 /* cat-keyboard.xib */,
+			);
+			path = "cat-keyboard";
+			sourceTree = "<group>";
+		};
+		2B7D28B419CE65D4003A9635 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D28B519CE65D4003A9635 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +193,13 @@
 				2B7D288519CE658F003A9635 /* Sources */,
 				2B7D288619CE658F003A9635 /* Frameworks */,
 				2B7D288719CE658F003A9635 /* Resources */,
+				2B7D28C019CE65D5003A9635 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2B7D28B919CE65D4003A9635 /* PBXTargetDependency */,
+				2B7D28BC19CE65D5003A9635 /* PBXTargetDependency */,
 			);
 			name = "keyboard-cat";
 			productName = "keyboard-cat";
@@ -150,6 +224,23 @@
 			productReference = 2B7D289E19CE658F003A9635 /* keyboard-catTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2B7D28B119CE65D4003A9635 /* cat-keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7D28BD19CE65D5003A9635 /* Build configuration list for PBXNativeTarget "cat-keyboard" */;
+			buildPhases = (
+				2B7D28AE19CE65D4003A9635 /* Sources */,
+				2B7D28AF19CE65D4003A9635 /* Frameworks */,
+				2B7D28B019CE65D4003A9635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cat-keyboard";
+			productName = "cat-keyboard";
+			productReference = 2B7D28B219CE65D4003A9635 /* cat-keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +256,9 @@
 					2B7D289D19CE658F003A9635 = {
 						CreatedOnToolsVersion = 6.0.1;
 						TestTargetID = 2B7D288819CE658F003A9635;
+					};
+					2B7D28B119CE65D4003A9635 = {
+						CreatedOnToolsVersion = 6.0.1;
 					};
 				};
 			};
@@ -183,6 +277,7 @@
 			targets = (
 				2B7D288819CE658F003A9635 /* keyboard-cat */,
 				2B7D289D19CE658F003A9635 /* keyboard-catTests */,
+				2B7D28B119CE65D4003A9635 /* cat-keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +297,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7D28B019CE65D4003A9635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7D28CB19CE71EA003A9635 /* keyboardcat.gif in Resources */,
+				2B7D28C819CE6B15003A9635 /* globe.png in Resources */,
+				2B7D28C419CE6891003A9635 /* cat-keyboard.xib in Resources */,
+				2B7D28C619CE6A43003A9635 /* backspace.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +331,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B7D28AE19CE65D4003A9635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7D28B719CE65D4003A9635 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +346,16 @@
 			isa = PBXTargetDependency;
 			target = 2B7D288819CE658F003A9635 /* keyboard-cat */;
 			targetProxy = 2B7D289F19CE658F003A9635 /* PBXContainerItemProxy */;
+		};
+		2B7D28B919CE65D4003A9635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7D28B119CE65D4003A9635 /* cat-keyboard */;
+			targetProxy = 2B7D28B819CE65D4003A9635 /* PBXContainerItemProxy */;
+		};
+		2B7D28BC19CE65D5003A9635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7D28B119CE65D4003A9635 /* cat-keyboard */;
+			targetProxy = 2B7D28BB19CE65D5003A9635 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -386,6 +510,30 @@
 			};
 			name = Release;
 		};
+		2B7D28BE19CE65D5003A9635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cat-keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B7D28BF19CE65D5003A9635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cat-keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +559,14 @@
 			buildConfigurations = (
 				2B7D28AC19CE658F003A9635 /* Debug */,
 				2B7D28AD19CE658F003A9635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B7D28BD19CE65D5003A9635 /* Build configuration list for PBXNativeTarget "cat-keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7D28BE19CE65D5003A9635 /* Debug */,
+				2B7D28BF19CE65D5003A9635 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
